@@ -1,0 +1,19 @@
+.four-images {
+    height: 440px;
+    @include center;
+}
+
+.four-images img {
+    height: 100%;
+    width: 50%;
+}
+
+.above1 {
+    display: flex;
+    height: 100%;
+}
+
+.above2 {
+    height: 100%;
+    display: flex;
+}

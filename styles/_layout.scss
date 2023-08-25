@@ -1,0 +1,11 @@
+body {
+    //padding: 10px;
+    @include center(true);
+}
+
+.image-description,
+.feedbacks,
+.four-images,
+footer {
+    width: 1300px;
+}

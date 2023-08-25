@@ -1,0 +1,56 @@
+.feedbacks {
+    height: 762px;
+}
+
+.sub-title-feedbacks {
+    text-align: center;
+    font-family: $font-fraunces;
+    color: $grayish-blue;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.feedback-emily,
+.feedback-thomas,
+.feedback-jeenie {
+    width: 20.625rem;
+    height: 21.5rem;
+    margin: 0 1rem;
+}
+
+.area-feedback {
+    @include center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.feedbacks img {
+    border-radius: 50%;
+    width: 4.438rem;
+    height: 4.438rem;
+    margin-left: 40%;
+}
+
+.feedbacks h3 {
+    font-family: $font-barlow;
+    color: $very-dark-grayish-blue;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.name {
+    color: $very-dark-desaturated-blue;
+    font-family: $font-fraunces;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.carrer {
+    text-align: center;
+    font-family: $font-barlow;
+    color: $grayish-blue;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}

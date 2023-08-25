@@ -1,0 +1,96 @@
+.image-description {
+    height: 1767px;
+}
+
+.first-image-description {
+    @include center;
+    height: 36.813rem;
+    flex-wrap: wrap;
+}
+
+.second-image-description {
+    @include center;
+    height: 36.813rem;
+    flex-wrap: wrap;
+}
+
+.last-image-description {
+    @include center;
+    height: 36.813rem;
+    flex-wrap: wrap;
+}
+
+.image-left {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    width: 50%;
+    height: 36.813rem;
+    @include center(true);
+}
+
+.image-right {
+    background-image: url(../images/desktop/image-photography.jpg);
+    width: 50%;
+    height: 36.813rem;
+    @include center(true);
+}
+
+.image-egg {
+    background-image: url(../images/desktop/image-transform.jpg);
+    width: 50%;
+    height: 36.813rem;
+}
+
+.image-stand-out {
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    width: 50%;
+    height: 36.813rem;
+}
+
+.text-image-description {
+    padding: 11rem;
+    width: 50%;
+    height: 36.813rem;
+}
+
+.sub-title-image-description {
+    font-family: $font-fraunces;
+    color: $very-dark-desaturated-blue;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.description {
+    font-family: $font-barlow;
+    color: $dark-grayish-blue;
+    margin-bottom: 2rem;
+}
+
+.learn-more-egg {
+    color: $very-dark-desaturated-blue;
+    font-family: $font-fraunces;
+    border-bottom: 4px solid $yellow;
+}
+
+.learn-more-stand-out {
+    color: $very-dark-desaturated-blue;
+    font-family: $font-fraunces;
+    border-bottom: 4px solid $soft-red;
+}
+
+.sub-title-last {
+    margin-top: 10rem;
+    font-family: $font-fraunces;
+    color: $very-dark-desaturated-blue;
+}
+
+.desc-last {
+    margin-top: 1rem;
+    font-family: $font-barlow;
+    color: $dark-grayish-blue;
+}
+
+.text-last-image {
+    width: 320px;
+    height: 135px;
+    text-align: center;
+}

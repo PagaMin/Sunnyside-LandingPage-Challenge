@@ -1,0 +1,41 @@
+footer {
+    height: 341px;
+    background-color: #5ed2c4;
+}
+
+.footer-img {
+    filter: invert(51%) sepia(8%) saturate(2233%) hue-rotate(118deg) brightness(93%) contrast(78%);
+    margin-left: 45%;
+    margin-top: 4rem;
+}
+
+.menu-footer {
+    text-align: center;
+    margin: 2rem;
+}
+
+.menu-footer a {
+    margin: 0 2rem;
+    color: $dark-moderate-cyan;
+    font-family: $font-barlow;
+    &:hover {
+        color: $white;
+    }
+}
+
+.icons-footer {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+.icons-footer i {
+    cursor: pointer;
+    margin: 0 1rem;
+    color: $dark-desatured-cyan;
+    transition: 0.4s ease-in-out;
+    &:hover {
+        color: $white;
+        transform: scale(2);
+    }
+}
